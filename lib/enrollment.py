@@ -28,7 +28,7 @@ class Course:
             raise TypeError("enrollment must be an instance of Enrollment")
 
     def get_enrollments(self):
-        return self._enrollments.copy()
+        return self._enrollments.copy() 
 
 
 class Enrollment:
